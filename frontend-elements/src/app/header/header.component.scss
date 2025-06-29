@@ -1,0 +1,22 @@
+.dark-toolbar {
+    background-color: #212121;
+    color: white;
+  }
+
+.toolbar-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0 16px;
+  }
+  .brand-link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  .brand-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+  }

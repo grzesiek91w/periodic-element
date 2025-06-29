@@ -1,0 +1,54 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+.dialog-content {
+  padding: 16px 24px;
+
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+    margin-top: 8px;
+
+    &.readonly-field {
+      .mat-form-field-outline {
+        background-color: #f5f5f5;
+        border-radius: 4px;
+      }
+
+      .mat-form-field-outline-gap {
+        background-color: #f5f5f5;
+      }
+
+      .mat-input-element {
+        color: rgba(0, 0, 0, 0.87);
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  .mat-error {
+    font-size: 12px;
+    line-height: 1.2;
+    margin-top: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 16px 24px;
+  margin-top: 8px;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+
+  button {
+    min-width: 80px;
+  }
+}
+
+
